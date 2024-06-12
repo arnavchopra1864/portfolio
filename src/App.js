@@ -7,7 +7,7 @@ import Header from './Header';
 export default function App() {
 
     const tagline = "Computer Science and Math Student at the University of Texas at Austin";
-
+    
     return (
         <Router>
                 {/* <Header/> */}
