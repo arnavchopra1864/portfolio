@@ -1,0 +1,80 @@
+/* App.css */
+
+/* Reset default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set body font and background */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Container styles */
+.App {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header styles */
+.App-header {
+  text-align: center;
+  padding: 20px 0;
+}
+
+/* Main content styles */
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Section styles */
+section {
+  margin-bottom: 40px;
+}
+
+/* About section styles */
+.About {
+  text-align: center;
+}
+
+/* Projects section styles */
+.Projects {
+  text-align: center;
+}
+
+.Project {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.Project h3 {
+  margin-bottom: 10px;
+}
+
+.Project p {
+  margin-bottom: 15px;
+}
+
+.Project a {
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* Contact section styles */
+.Contact {
+  text-align: center;
+}
+
+/* Footer styles */
+footer {
+  text-align: center;
+  margin-top: 40px;
+}
